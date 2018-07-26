@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1117-2.85
+D 800mA Low-Dropout Linear Regulator, 2.85V fixed output, SOT-223/TO-263
+K linear regulator ldo fixed positive
+F http://cds.linear.com/docs/en/datasheet/1117fd.pdf
+$ENDCMP
+#
+$CMP LT1117-3.3
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223/TO-263
+K linear regulator ldo fixed positive
+F http://cds.linear.com/docs/en/datasheet/1117fd.pdf
+$ENDCMP
+#
+$CMP LT1117-5.0
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223/TO-263
+K linear regulator ldo fixed positive
+F http://cds.linear.com/docs/en/datasheet/1117fd.pdf
+$ENDCMP
+#
+#End Doc Library
