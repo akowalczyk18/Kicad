@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STMPod-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -554,8 +555,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2300 6400 2300
 Wire Wire Line
-	6850 2200 6400 2200
-Wire Wire Line
 	6850 2000 6400 2000
 Wire Wire Line
 	6850 1900 6400 1900
@@ -649,8 +648,6 @@ Text Label 6550 2400 0    50   ~ 0
 PA7
 Text Label 6550 2300 0    50   ~ 0
 PB1
-Text Label 6550 2200 0    50   ~ 0
-GND
 $Comp
 L power:+3.3V #PWR0122
 U 1 1 5B611B45
@@ -806,4 +803,19 @@ Text Label 9650 3300 0    50   ~ 0
 PA0
 Wire Wire Line
 	6250 2100 6250 2050
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5B5AAF2E
+P 6250 2300
+F 0 "#PWR?" H 6250 2050 50  0001 C CNN
+F 1 "GNDREF" H 6050 2250 50  0000 C CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2200 6250 2300
+Wire Wire Line
+	6250 2200 6850 2200
 $EndSCHEMATC
