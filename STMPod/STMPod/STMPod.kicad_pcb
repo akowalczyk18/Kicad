@@ -55,9 +55,9 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
-    (pad_to_mask_clearance 0.2)
+    (pad_size 1.45 0.45)
+    (pad_drill 0)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -229,7 +229,7 @@
     )
   )
 
-  (module Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm (layer F.Cu) (tedit 5A02F25C) (tstamp 5B5A94FC)
+  (module Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm (layer F.Cu) (tedit 5B6CD928) (tstamp 5B5A94FC)
     (at 175.26 91.44 180)
     (descr "20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
