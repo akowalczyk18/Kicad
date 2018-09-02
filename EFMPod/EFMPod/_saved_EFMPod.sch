@@ -1238,26 +1238,6 @@ LED0
 Text Label 10100 7900 0    50   ~ 0
 LED1
 $Comp
-L dk_USB-DVI-HDMI-Connectors:UJ2-MBH-1-SMT-TR J2
-U 1 1 5BB180EE
-P 1750 7250
-F 0 "J2" H 1774 7902 60  0000 C CNN
-F 1 "UJ2-MBH-1-SMT-TR" H 1774 7796 60  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_UJ2-MBH-1-SMT-TR" H 1950 7450 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 7550 60  0001 L CNN
-F 4 "102-4003-1-ND" H 1950 7650 60  0001 L CNN "Digi-Key_PN"
-F 5 "UJ2-MBH-1-SMT-TR" H 1950 7750 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1950 7850 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 1950 7950 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 8050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/UJ2-MBH-1-SMT-TR/102-4003-1-ND/6187925" H 1950 8150 60  0001 L CNN "DK_Detail_Page"
-F 10 "USB JACK 2.0, MINI B TYPE, 5 PIN" H 1950 8250 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 1950 8350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1950 8450 60  0001 L CNN "Status"
-	1    1750 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR0125
 U 1 1 5BB191C0
 P 2900 6850
@@ -1605,10 +1585,10 @@ $EndComp
 Wire Wire Line
 	6050 7550 6600 7550
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y1
 U 1 1 5B8D9059
 P 6300 6900
-F 0 "Y?" H 6300 7168 50  0000 C CNN
+F 0 "Y1" H 6300 7168 50  0000 C CNN
 F 1 "24MHz" H 6300 7077 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 6300 6900 50  0001 C CNN
 F 3 "~" H 6300 6900 50  0001 C CNN
@@ -1624,4 +1604,26 @@ Wire Wire Line
 Wire Wire Line
 	6600 6900 6600 7050
 Connection ~ 6600 7050
+Text Notes 2800 7850 0    50   ~ 0
+102-4003-1-ND
+$Comp
+L dk_USB-DVI-HDMI-Connectors:UJ2-MBH-1-SMT-TR J2
+U 1 1 5BB180EE
+P 1750 7250
+F 0 "J2" H 1774 7902 60  0000 C CNN
+F 1 "UJ2-MBH-1-SMT-TR" H 1774 7796 60  0000 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_UJ2-MBH-1-SMT-TR" H 1950 7450 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 7550 60  0001 L CNN
+F 4 "102-4003-1-ND" H 1950 7650 60  0001 L CNN "Digi-Key_PN"
+F 5 "UJ2-MBH-1-SMT-TR" H 1950 7750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1950 7850 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1950 7950 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 8050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/UJ2-MBH-1-SMT-TR/102-4003-1-ND/6187925" H 1950 8150 60  0001 L CNN "DK_Detail_Page"
+F 10 "USB JACK 2.0, MINI B TYPE, 5 PIN" H 1950 8250 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1950 8350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1950 8450 60  0001 L CNN "Status"
+	1    1750 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
