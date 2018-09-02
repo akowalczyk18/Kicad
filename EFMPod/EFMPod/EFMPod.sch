@@ -505,53 +505,23 @@ DBG_SWCLK
 Text Label 7550 4900 0    50   ~ 0
 DBG_SWDIO
 $Comp
-L power:+3V3 #PWR0112
-U 1 1 5B867EA8
-P 1450 3500
-F 0 "#PWR0112" H 1450 3350 50  0001 C CNN
-F 1 "+3V3" H 1465 3673 50  0000 C CNN
-F 2 "" H 1450 3500 50  0001 C CNN
-F 3 "" H 1450 3500 50  0001 C CNN
-	1    1450 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR0113
 U 1 1 5B867FE5
-P 1450 4050
-F 0 "#PWR0113" H 1450 3800 50  0001 C CNN
-F 1 "GNDREF" H 1455 3877 50  0000 C CNN
-F 2 "" H 1450 4050 50  0001 C CNN
-F 3 "" H 1450 4050 50  0001 C CNN
-	1    1450 4050
+P 2100 4250
+F 0 "#PWR0113" H 2100 4000 50  0001 C CNN
+F 1 "GNDREF" H 2105 4077 50  0000 C CNN
+F 2 "" H 2100 4250 50  0001 C CNN
+F 3 "" H 2100 4250 50  0001 C CNN
+	1    2100 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5B868039
-P 1050 3750
-F 0 "J1" H 970 4067 50  0000 C CNN
-F 1 "Conn_01x04" H 970 3976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 3750 50  0001 C CNN
-F 3 "~" H 1050 3750 50  0001 C CNN
-	1    1050 3750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	1450 3650 1450 3500
+	2700 3850 3250 3850
 Wire Wire Line
-	1250 3650 1450 3650
-Wire Wire Line
-	1250 3950 1450 3950
-Wire Wire Line
-	1450 3950 1450 4050
-Wire Wire Line
-	1250 3750 1650 3750
-Wire Wire Line
-	1250 3850 1650 3850
-Text Label 1250 3750 0    50   ~ 0
+	2700 3750 3250 3750
+Text Label 2750 3850 0    50   ~ 0
 DBG_SWCLK
-Text Label 1250 3850 0    50   ~ 0
+Text Label 2750 3750 0    50   ~ 0
 DBG_SWDIO
 Wire Wire Line
 	1100 1700 1100 1800
@@ -1238,26 +1208,6 @@ LED0
 Text Label 10100 7900 0    50   ~ 0
 LED1
 $Comp
-L dk_USB-DVI-HDMI-Connectors:UJ2-MBH-1-SMT-TR J2
-U 1 1 5BB180EE
-P 1750 7250
-F 0 "J2" H 1774 7902 60  0000 C CNN
-F 1 "UJ2-MBH-1-SMT-TR" H 1774 7796 60  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_UJ2-MBH-1-SMT-TR" H 1950 7450 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 7550 60  0001 L CNN
-F 4 "102-4003-1-ND" H 1950 7650 60  0001 L CNN "Digi-Key_PN"
-F 5 "UJ2-MBH-1-SMT-TR" H 1950 7750 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1950 7850 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 1950 7950 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 8050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/UJ2-MBH-1-SMT-TR/102-4003-1-ND/6187925" H 1950 8150 60  0001 L CNN "DK_Detail_Page"
-F 10 "USB JACK 2.0, MINI B TYPE, 5 PIN" H 1950 8250 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 1950 8350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1950 8450 60  0001 L CNN "Status"
-	1    1750 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR0125
 U 1 1 5BB191C0
 P 2900 6850
@@ -1605,10 +1555,10 @@ $EndComp
 Wire Wire Line
 	6050 7550 6600 7550
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y1
 U 1 1 5B8D9059
 P 6300 6900
-F 0 "Y?" H 6300 7168 50  0000 C CNN
+F 0 "Y1" H 6300 7168 50  0000 C CNN
 F 1 "24MHz" H 6300 7077 50  0000 C CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 6300 6900 50  0001 C CNN
 F 3 "~" H 6300 6900 50  0001 C CNN
@@ -1624,4 +1574,73 @@ Wire Wire Line
 Wire Wire Line
 	6600 6900 6600 7050
 Connection ~ 6600 7050
+Text Notes 2800 7850 0    50   ~ 0
+102-4003-1-ND
+$Comp
+L dk_USB-DVI-HDMI-Connectors:UJ2-MBH-1-SMT-TR J2
+U 1 1 5BB180EE
+P 1750 7250
+F 0 "J2" H 1774 7902 60  0000 C CNN
+F 1 "UJ2-MBH-1-SMT-TR" H 1774 7796 60  0000 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_UJ2-MBH-1-SMT-TR" H 1950 7450 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 7550 60  0001 L CNN
+F 4 "102-4003-1-ND" H 1950 7650 60  0001 L CNN "Digi-Key_PN"
+F 5 "UJ2-MBH-1-SMT-TR" H 1950 7750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1950 7850 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1950 7950 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/uj2-mbh-smt.pdf" H 1950 8050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/UJ2-MBH-1-SMT-TR/102-4003-1-ND/6187925" H 1950 8150 60  0001 L CNN "DK_Detail_Page"
+F 10 "USB JACK 2.0, MINI B TYPE, 5 PIN" H 1950 8250 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1950 8350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1950 8450 60  0001 L CNN "Status"
+	1    1750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 5B8D2FF8
+P 2400 3950
+F 0 "J1" H 2450 4367 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2550 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2400 3950 50  0001 C CNN
+F 3 "~" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 4050
+Wire Wire Line
+	2100 4250 2100 4150
+Wire Wire Line
+	2100 3950 2200 3950
+Wire Wire Line
+	2200 3850 2100 3850
+Wire Wire Line
+	2100 3850 2100 3950
+Connection ~ 2100 3950
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 5B96AF32
+P 2100 3650
+F 0 "#PWR0112" H 2100 3500 50  0001 C CNN
+F 1 "+3V3" H 2115 3823 50  0000 C CNN
+F 2 "" H 2100 3650 50  0001 C CNN
+F 3 "" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3650 2100 3750
+Wire Wire Line
+	2100 3750 2200 3750
+Wire Wire Line
+	2700 4150 3250 4150
+Text Label 2750 4150 0    50   ~ 0
+~EFM_RESET
+NoConn ~ 2700 4050
+Wire Wire Line
+	2200 4150 2100 4150
+Connection ~ 2100 4150
+Wire Wire Line
+	2100 4150 2100 3950
+NoConn ~ 2700 3950
 $EndSCHEMATC
