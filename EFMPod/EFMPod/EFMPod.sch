@@ -1553,18 +1553,7 @@ F 3 "~" H 7300 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6050 7550 6600 7550
-$Comp
-L Device:Crystal Y1
-U 1 1 5B8D9059
-P 6300 6900
-F 0 "Y1" H 6300 7168 50  0000 C CNN
-F 1 "24MHz" H 6300 7077 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 6300 6900 50  0001 C CNN
-F 3 "~" H 6300 6900 50  0001 C CNN
-	1    6300 6900
-	1    0    0    -1  
-$EndComp
+	6050 7550 6300 7550
 Wire Wire Line
 	6050 6900 6150 6900
 Wire Wire Line
@@ -1643,4 +1632,29 @@ Connection ~ 2100 4150
 Wire Wire Line
 	2100 4150 2100 3950
 NoConn ~ 2700 3950
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5B92BA1F
+P 6300 6900
+F 0 "Y1" H 6450 7150 50  0000 L CNN
+F 1 "Crystal_GND24" H 6450 7050 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 6300 6900 50  0001 C CNN
+F 3 "~" H 6300 6900 50  0001 C CNN
+	1    6300 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 7100 6300 7550
+Connection ~ 6300 7550
+Wire Wire Line
+	6300 7550 6600 7550
+Wire Wire Line
+	6300 6700 6300 6650
+Wire Wire Line
+	6300 6650 5700 6650
+Wire Wire Line
+	5700 6650 5700 7550
+Wire Wire Line
+	5700 7550 6050 7550
+Connection ~ 6050 7550
 $EndSCHEMATC
