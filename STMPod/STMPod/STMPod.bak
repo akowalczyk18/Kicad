@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STMPod-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -387,17 +388,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 1550 8900 1550
 $Comp
-L AK_Power:MIC2920A-3.3WS U2
-U 1 1 5B5B663D
-P 1650 5050
-F 0 "U2" H 1650 5292 50  0000 C CNN
-F 1 "MIC2920A-3.3WS" H 1650 5201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 1650 5050 50  0001 C CNN
-F 3 "http://cds.linear.com/docs/en/datasheet/1117fd.pdf" H 1650 5050 50  0001 C CNN
-	1    1650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0113
 U 1 1 5B5B67B2
 P 1200 4900
@@ -443,12 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5400 1700 5400
 Wire Wire Line
-	1750 5400 1750 5350
-Wire Wire Line
 	1700 5400 1700 5450
-Connection ~ 1700 5400
-Wire Wire Line
-	1700 5400 1750 5400
 Wire Wire Line
 	3000 5450 3450 5450
 $Comp
@@ -554,8 +539,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2300 6400 2300
 Wire Wire Line
-	6850 2200 6400 2200
-Wire Wire Line
 	6850 2000 6400 2000
 Wire Wire Line
 	6850 1900 6400 1900
@@ -649,8 +632,6 @@ Text Label 6550 2400 0    50   ~ 0
 PA7
 Text Label 6550 2300 0    50   ~ 0
 PB1
-Text Label 6550 2200 0    50   ~ 0
-GND
 $Comp
 L power:+3.3V #PWR0122
 U 1 1 5B611B45
@@ -806,4 +787,30 @@ Text Label 9650 3300 0    50   ~ 0
 PA0
 Wire Wire Line
 	6250 2100 6250 2050
+$Comp
+L power:GNDREF #PWR0127
+U 1 1 5B5AAF2E
+P 6250 2300
+F 0 "#PWR0127" H 6250 2050 50  0001 C CNN
+F 1 "GNDREF" H 6050 2250 50  0000 C CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2200 6250 2300
+Wire Wire Line
+	6250 2200 6850 2200
+$Comp
+L Regulator_Linear:AZ1117-3.3 U2
+U 1 1 5B9DEAB6
+P 1650 5050
+F 0 "U2" H 1650 5292 50  0000 C CNN
+F 1 "AZ1117-3.3" H 1650 5201 50  0000 C CNN
+F 2 "" H 1650 5300 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 1650 5050 50  0001 C CNN
+	1    1650 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
