@@ -1,0 +1,176 @@
+Circuit: * C:\Users\agk99\Documents\GitHub\Kicad\Multimeter\Multimeter_Base\Ohms_alt2.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by R1.
+Instance "m:u6:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u6:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u5:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.0412
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.0132
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.00827
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00515
+vernier = 0.000651042
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 1.00434
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00339
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 24.4318%
+vernier = 0.015625
+Source Step = 24.2661%
+Source Step = 24.2957%
+Source Step = 24.3253%
+Source Step = 24.3549%
+Source Step = 24.3845%
+vernier = 0.00146484
+Source Step = 24.4215%
+Source Step = 24.4658%
+Source Step = 24.5102%
+Source Step = 24.5546%
+Source Step = 24.599%
+vernier = 0.00219727
+Source Step = 24.6523%
+Source Step = 24.7189%
+Source Step = 24.7855%
+Source Step = 24.852%
+Source Step = 24.9186%
+vernier = 0.0032959
+Source Step = 24.9952%
+Source Step = 25.0951%
+Source Step = 25.1949%
+Source Step = 25.2948%
+Source Step = 25.3947%
+vernier = 0.00494385
+Source Step = 25.5046%
+Source Step = 25.6544%
+Source Step = 25.8042%
+Source Step = 25.954%
+Source Step = 26.1038%
+vernier = 0.00741577
+Source Step = 26.2611%
+Source Step = 26.4858%
+Source Step = 26.7106%
+Source Step = 26.9353%
+Source Step = 27.16%
+Source Step = 27.3847%
+vernier = 0.0111237
+Source Step = 27.7218%
+Source Step = 28.0589%
+Source Step = 28.396%
+Source Step = 28.733%
+Source Step = 29.0701%
+vernier = 0.0166855
+Source Step = 29.5589%
+Source Step = 30.0645%
+Source Step = 30.5701%
+Source Step = 31.0757%
+Source Step = 31.5814%
+vernier = 0.0250282
+Source Step = 32.2892%
+Source Step = 33.0477%
+Source Step = 33.8061%
+Source Step = 34.5645%
+Source Step = 35.323%
+vernier = 0.0375423
+Source Step = 36.3468%
+Source Step = 37.4845%
+Source Step = 38.6221%
+Source Step = 39.7598%
+Source Step = 40.8974%
+vernier = 0.0563135
+Source Step = 42.3764%
+Source Step = 44.0828%
+Source Step = 45.7893%
+Source Step = 47.4958%
+Source Step = 49.2023%
+vernier = 0.0844703
+Source Step = 51.3353%
+Source Step = 53.895%
+Source Step = 56.4548%
+Source Step = 59.0145%
+Source Step = 61.5742%
+vernier = 0.126705
+Source Step = 64.6458%
+Source Step = 68.4854%
+Source Step = 72.3249%
+Source Step = 76.1645%
+Source Step = 80.004%
+vernier = 0.190058
+Source Step = 84.4195%
+Source Step = 90.1789%
+Source Step = 95.9382%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Wed May 15 21:14:03 2019
+Total elapsed time: 2.526 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9815
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 302
+fillins = 426
+solver = Normal
+Thread vector: 18.9/10.4[4] 5.6/4.0[4] 7.6/4.3[4] 0.9/1.5[1]  2592/500
+Matrix Compiler1: 30.64 KB object code size  5.9/2.3/[1.2]
+Matrix Compiler2: 34.61 KB object code size  3.6/4.7/[1.9]
+

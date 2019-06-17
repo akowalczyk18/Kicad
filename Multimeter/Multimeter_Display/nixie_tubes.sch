@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Nixies:IN-12A NX?
+U 1 1 5CC71226
+P 2800 3500
+F 0 "NX?" H 2750 4345 45  0000 C CNN
+F 1 "IN-12A" H 2800 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 2830 3650 20  0001 C CNN
+F 3 "" H 2800 3500 50  0001 C CNN
+	1    2800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixies:IN-12A NX?
+U 1 1 5CC73A8E
+P 4800 3500
+F 0 "NX?" H 4750 4345 45  0000 C CNN
+F 1 "IN-12A" H 4800 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 4830 3650 20  0001 C CNN
+F 3 "" H 4800 3500 50  0001 C CNN
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixies:IN-12A NX?
+U 1 1 5CC76201
+P 6800 3500
+F 0 "NX?" H 6750 4345 45  0000 C CNN
+F 1 "IN-12A" H 6800 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 6830 3650 20  0001 C CNN
+F 3 "" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixies:IN-12A NX?
+U 1 1 5CC77ABA
+P 8800 3500
+F 0 "NX?" H 8750 4345 45  0000 C CNN
+F 1 "IN-12A" H 8800 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 8830 3650 20  0001 C CNN
+F 3 "" H 8800 3500 50  0001 C CNN
+	1    8800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixies:IN-15A N?
+U 1 1 5CC7B262
+P 10600 3500
+F 0 "N?" H 10650 4345 45  0000 C CNN
+F 1 "IN-15A" H 10600 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 10630 3650 20  0001 C CNN
+F 3 "" H 10600 3500 50  0001 C CNN
+	1    10600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nixies:IN-15B N?
+U 1 1 5CC7D048
+P 12600 3500
+F 0 "N?" H 12650 4345 45  0000 C CNN
+F 1 "IN-15B" H 12600 3500 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 12630 3650 20  0001 C CNN
+F 3 "" H 12600 3500 50  0001 C CNN
+	1    12600 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

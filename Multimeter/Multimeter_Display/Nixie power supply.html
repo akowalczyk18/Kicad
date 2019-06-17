@@ -1,0 +1,102 @@
+
+<!-- saved from url=(0042)http://www.electricstuff.co.uk/nixpsu.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Nixie power supply</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<meta name="Microsoft Border" content="tb, default"></head>
+
+<body bgcolor="#C0C0C0"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td>
+
+<table border="0" cellpadding="0" cellspacing="4" width="100%">
+  <tbody><tr>
+    <td width="35%"><small>Tour : click picture below for previous</small></td>
+    <td width="29%"><p align="center"><a href="http://www.electricstuff.co.uk/" target="_top">Back
+    to Mike's <font color="#FF8020">Electric</font> Stuff<strong> </strong></a><strong> </strong></p></td>
+    <td width="36%"><p align="right"><small>Click picture below for next</small></p></td>
+  </tr>
+</tbody></table>
+
+<hr>
+</td></tr><!--msnavigation--></tbody></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><!--msnavigation--><td valign="top">
+
+<h2 align="center">Nixie power supply</h2>
+
+<p><img src="./Nixie power supply_files/nixpsu.gif" alt="nixpsu.gif (28707 bytes)" width="724" height="300"></p>
+
+<p>This circuit provides a comparatively safe way of powering nixies from a DC supply. </p>
+
+<p>R1 sets the maximum output power, and the value will depend on the inductor and the
+input voltage. Value will typically be from 0.1 to 2.2 ohms. Start at 1 ohm and reduce
+until the output voltage is maintained with all tubes on. (The easiest way to experiment
+with values this low is by paralleling 1 ohm resistors. You must solder them - breadboards
+will have too much contact resistance). Keep an eye on the input current consumption - if
+you see the off-load power draw rise significantly with no corresponding increase in
+output voltage, the inductor may be saturating, in which case you need a physically larger
+inductor. </p>
+
+<p>R2 and R3 set the output voltage - 180 to 200 volts should normally be sufficient. As
+the supply is regulated, there is no need to use high-value anode resistors and high
+supply voltages to get even brightness. Keeping the voltage low reduces power consumption,
+and reduces the required inductor size.<br>
+Using 10K for R3, R2 is given by R2= (6.7 * Vout) Kohms. 1.2M gives 180V. (The complete
+formula is R2 = R1 x (Vout/1.5), give or take a volt or so). It is recommended that you
+use two series resistors of similar value for R2 to reduce the possibility of long-term
+drift due to the high voltage, and this also makes it easier to fine-adjust the voltage
+with standard resistor values. </p>
+
+<p>Select the Anode resistors (RA) to get the required tube current as recommeded in the
+tube data sheet (typically 2-3mA). For a 180VDC supply, a typical value is in the range of
+22-47K. You can easily measure the tube current by measuring the voltage across the anode
+resistor - the current in milliamps is the the voltage across the resistor divided by the
+resistance in Kohms. </p>
+
+<p><img src="./Nixie power supply_files/01222001.JPG" alt="01222001.JPG (215137 bytes)" align="right" width="101" height="140">L1 is typically
+220 microhenries, although the physical size, DC resistance and current rating is more
+important than the exact inductance, and values from 100 to 470uH will normally work OK,
+depending on the supply voltage and required output voltage and current.&nbsp; DC
+resistance should be less than 1 ohm. For example Toko 8RHB series, Panasonic ELC series.
+Suitable coils are typically wound on small ferrite bobbins about 6-10mm diameter by 5-8mm
+high - you may be able to salvage something suitable from scrap equipment - they are often
+used as output filters in switchmode power supplies. They are often marked with a 3 digit
+code representing microhenries, the last digit being the number of zeros, like the
+resistor colour code, e.g. 221 is 220uH. Small Axial-leaded RF chokes will usually <u>not</u>
+be suitable due to insufficient current capacity.</p>
+
+<p>Q1 is a high-voltage (Vds&gt;300V) MOSFET, with a gate threshold voltage Vg(th) below
+4V. I used an IRF830. It should not require heatsinking (if it gets hot there is something
+wrong!).</p>
+
+<p>D1 can be any fast-recovery diode with a suitable voltage rating (300V minimum). <u>1N4148,
+1N914 and 1N400x series parts are NOT suitable.</u> UF400x series parts are usually the
+cheapest suitable fast diodes. Use a diode rated for at least 1 amp - although smaller
+ones will usually work, they tend to die after even a momantary output short. </p>
+
+<p>C1 will typically be around 2.2 or 4.7uF, 250VDC Larger values may be needed for
+stability with higher output loads. <br>
+C2&nbsp; should be a low-ESR, high-frequency type.</p>
+
+<p>Due to the high output voltage, the normal method of powering the MAX771 shown in the
+data sheet cannot be used. As the system will almost always have a 5v logic supply, this
+is used to power the MAX771. A 7805 is shown above -&nbsp; you may be able to use the
+smaller 78L05 depending on the total power draw from the 5v supply and the input voltage.
+&nbsp;&nbsp; </p>
+
+<p>Pin 4 of the MAX771 can be used for on/off control if required - taking it high (+5V)
+will disable the HT supply. </p>
+&nbsp;<!--msnavigation--></td></tr><!--msnavigation--></tbody></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td>
+
+<hr>
+
+<table border="0" cellpadding="0" cellspacing="4" width="100%" height="13">
+  <tbody><tr>
+    <td width="36%" height="9"><small>Click picture above for Previous</small></td>
+    <td width="31%" height="9"><p align="center"><a href="http://www.electricstuff.co.uk/" target="_top">Back to Mike's <font color="#FF8020">Electric</font> Stuff<strong> </strong></a><strong> </strong></p></td>
+    <td width="33%" height="9"><p align="right"><small>Click picture above for next</small></p></td>
+  </tr>
+</tbody></table>
+
+<p>&nbsp;</p>
+</td></tr><!--msnavigation--></tbody></table>
+
+</body></html>

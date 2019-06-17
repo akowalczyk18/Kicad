@@ -1,0 +1,23 @@
+Circuit: * C:\Users\agk99\Documents\GitHub\Kicad\Multimeter\Multimeter_Base\front_end_ohms.asc
+
+WARNING: Less than two connections to node VMM_5V0.  This node is used by V3.
+WARNING: Less than two connections to node VDD_MID.  This node is used by V4.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu May 16 23:28:26 2019
+Total elapsed time: 0.077 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2136
+traniter = 2108
+tranpoints = 1055
+accept = 1055
+rejected = 0
+matrix size = 16
+fillins = 2
+solver = Normal
+Matrix Compiler1: 834 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
