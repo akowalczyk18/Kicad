@@ -10,4 +10,7 @@ Uses Cypress CY7C65213 USB to UART Converter
 
 ![](render3.png)
 ![](render2.png)
-![](render.png)      
+![](render.png)  
+
+Hardware License: CERN OHL v 1.2
+Documentation License: CC BY-SA 4.0 International    
